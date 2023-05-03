@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #ecece5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* serve a eliminare il margin-bottom che le immagini hanno di default */
+}
+
+main, footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #1a0f0f;
+    
+   
+}
+
+header a:hover {
+    color: rgb(43, 53, 169);
+    text-decoration: underline;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fc9696;
+}
+
+header p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+section.hero {
+   
+    text-align: center;
+    border-radius: 50px;
+    margin: 60px;
+    text-shadow: 0px 8px 8px rgba(121, 79, 17, 0.28);;
+}
+
+
+section.hero h1 {
+    margin: 0;
+    padding: 40px 10px;
+    font-size: 40px;
+    color: rgba(51, 110, 187, 0.9);
+    
+}
+section p{
+   margin: 0;
+    background: rgba(255, 199, 86, 0.76);
+box-shadow: -8px 8px 4px rgba(201, 166, 110, 0.5);
+backdrop-filter: blur(4px);
+padding: 12px;
+
+border-radius: 30px;
+}
+
+main {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+div.end{
+    padding: 35%;
+   max-width:400px;
+   margin-top: -400px;
+  
+   
+}
+
+
+div.en{
+    margin: 0;
+    text-align: end;
+    padding-bottom: 3%;
+    padding-right: 2%;
+} 
+
+  
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #f59696;
+}
+
+footer p {
+    border-top:1px solid rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 20px 0;
+    font-size: 14px;
+    color:#4a4a4a
+}
+
+
+
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
